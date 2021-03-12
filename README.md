@@ -10,6 +10,6 @@ You can run this application by first navigating into the root directory, i.e. M
 ```
 	php -S localhost:<PORT>
 ```
-The <PORT> can be any of your choice.
+The PORT can be any of your choice.
 ## The Database
 A text file is used as database for the purpose of this exercise, it is stored in the storage folder and named "contacts.txt".
