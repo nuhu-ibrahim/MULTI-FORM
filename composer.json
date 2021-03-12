@@ -1,0 +1,25 @@
+{
+  "name": "nuhu-ibrahim/multi-form",
+  "description": "Validating multi-forms.",
+  "require": {
+    "vlucas/phpdotenv": "^2.5",
+    "tamtamchik/simple-flash": "^2.0"
+  },"require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/app",
+      "Core\\": "core/"
+    },
+    "files": [
+      "core/helpers.php"
+    ]
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-install-cmd": [
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+    ]
+  }
+}
